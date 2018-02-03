@@ -16,8 +16,8 @@ OUTPUT_SET_TYPE SHARED UnsignedAdderOutputSet
 
 NAMED_VALUE_LISTS
   # The sum of any two lowPositive or lowNegative values will not overflow
-  lowPositive  [ 0, 1, 2^15 - 1 ]
-  allPositive  [ lowPositive,  2^16 - 2, 2^16 - 1 ]
+  lowPositive  [ 0, 1, 2^15 - 1, 10, 3089, 25091, 2^15 + 36, 12, 102 ]
+  allPositive  [ lowPositive,  2^16 - 2, 2^16 - 1, 2^16 - 12 ]
 
 ###########################
 #
